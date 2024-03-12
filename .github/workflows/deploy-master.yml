@@ -24,5 +24,9 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: cURL request
+<<<<<<< HEAD
         run: curl --location --request POST https://release-ee.appsmith.com/api/v1/git/deploy/app/65bdeb2e9e05cd61c71e31a7?branchName=master --header 'authorization: Bearer ${{ secrets.DEPLOY }}'
+=======
+        run: curl --location --request POST https://release-ee.appsmith.com/api/v1/git/deploy/app/65bdeb2e9e05cd61c71e31a7?branchName=master --header 'Authorization: Bearer ${{secrets.DEPLOY}}'
+>>>>>>> origin/master
      
