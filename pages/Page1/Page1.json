@@ -16,7 +16,7 @@
           "bottomRow": 620,
           "containerStyle": "none",
           "snapRows": 124,
-          "parentRowSpace": 1,
+          "parentRowSpace": 2,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
