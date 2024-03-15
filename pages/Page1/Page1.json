@@ -7,7 +7,7 @@
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
-          "backgroundColor": "none",
+          "backgrundColor": "none",
           "rightColumn": 4896,
           "snapColumns": 64,
           "detachFromLayout": true,
