@@ -1,5 +1,5 @@
 {
-  "pluginType": "DB",
+  "pluginType": "B",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
     "name": "Find_movies1",
