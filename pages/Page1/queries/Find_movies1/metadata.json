@@ -1,6 +1,6 @@
 {
   "pluginType": "B",
-  "pluginId": "mongo-plugin",
+  "pluginId": "-plugin",
   "unpublishedAction": {
     "name": "Find_movies1",
     "datasource": {
