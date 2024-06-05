@@ -12,7 +12,7 @@
     "animateLoading": true,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"},
+        {"key": "borRadius"},
         {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "totalRecordsCount"},
