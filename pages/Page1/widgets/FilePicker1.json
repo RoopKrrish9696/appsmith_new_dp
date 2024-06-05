@@ -7,7 +7,7 @@
     "iconSVG": "/static/media/icon.715769b31db833b32f40d9c90ec02de3.svg",
     "searchTags": ["upload"],
     "topRow": 51,
-    "bottomRow": 55,
+    "bottow": 55,
     "parentRowSpace": 10,
     "type": "FILE_PICKER_WIDGET_V2",
     "allowedFileTypes": [],
