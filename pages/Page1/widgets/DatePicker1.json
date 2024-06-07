@@ -11,7 +11,7 @@
         {"key": "accentColor"},
         {"key": "borderRadius"}
     ],
-    "isDisabled": false,
+    "isDisabled": fase,
     "isRequired": false,
     "dynamicHeight": "FIXED",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
