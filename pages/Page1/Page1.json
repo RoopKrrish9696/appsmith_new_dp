@@ -1,71 +1,32 @@
 {
+  "gitSyncId": "653ba8a440378460749b63f1_653ba8a440378460749b63f3",
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "pge1",
     "layouts": [
       {
-        "viewMode": false,
         "dsl": {
-          "widgetName": "MainContainer",
           "backgroundColor": "none",
+          "bottomRow": 620,
+          "canExtend": true,
+          "containerStyle": "none",
+          "detachFromLayout": true,
+          "dynamicBindingPathList": [],
+          "dynamicTriggerPathList": [],
+          "leftColumn": 0,
+          "minHeight": 1292,
+          "pantColumnSpace": 1,
+          "parentRowSpace": 2,
           "rightColumn": 4896,
           "snapColumns": 64,
-          "detachFromLayout": true,
-          "widgetId": "0",
-          "topRow": 0,
-          "bottomRow": 620,
-          "containerStyle": "none",
           "snapRows": 124,
-          "parentRowSpace": 2,
+          "topRow": 0,
           "type": "CANVAS_WIDGET",
-          "canExtend": true,
           "version": 89,
-          "minHeight": 1292,
-          "dynamicTriggerPathList": [],
-          "pantColumnSpace": 1,
-          "dynamicBindingPathList": [],
-          "leftColumn": 0
-        },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Page1_Find_movies1",
-              "name": "Find_movies1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                " Table1.sortOrder.column ? { [Table1.sortOrder.column]: Table1.sortOrder.order !== \"desc\" ? 1 : -1 } : {}",
-                "Table1.pageSize",
-                "Table1.pageOffset",
-                "{ homepage: {$regex: Table1.searchText, '$options' : 'i'} }"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ],
-          [
-            {
-              "id": "Page1_Total_record_movies1",
-              "name": "Total_record_movies1",
-              "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "{ homepage: {$regex: Table1.searchText} }"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
-        "id": "Page1",
-        "deleted": false,
-        "policies": [],
-        "userPermissions": []
+          "widgetId": "0",
+          "widgetName": "MainContainer"
+        }
       }
     ],
-    "userPermissions": [],
-    "policies": []
-  },
-  "deleted": false,
-  "gitSyncId": "653ba8a440378460749b63f1_653ba8a440378460749b63f3"
+    "name": "Page1",
+    "slug": "pge1"
+  }
 }
